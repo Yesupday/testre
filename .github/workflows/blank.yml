@@ -28,7 +28,7 @@ jobs:
         with: 
           submodules: true
       - name: 查看目录
-      - run: cd hexo-theme-next
+        run: cd hexo-theme-next
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: ls -al
